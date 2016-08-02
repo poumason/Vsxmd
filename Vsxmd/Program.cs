@@ -18,7 +18,7 @@ namespace Vsxmd
     /// </summary>
     /// <remarks>
     /// Usage syntax:
-    /// <c>Vsxmd.exe &lt;input-XML-path&gt; [output-Markdown-path]</c>
+    /// <c>Vsxmd &lt;input-XML-path&gt; [output-Markdown-path]</c>
     /// <para>The <c>input-XML-path</c> argument is required. It references to the VS generated XML documentation file.</para>
     /// <para>The <c>output-Markdown-path</c> argument is optional. It indicates the file path for the Markdown output file. When not specific, it will be a <c>.md</c> file with same file name as the XML documentation file, path at the XML documentation folder.</para>
     /// </remarks>
@@ -33,7 +33,7 @@ namespace Vsxmd
         {
             if (args.Length < 1)
             {
-                Console.Error.WriteLine($"Usage: {AppDomain.CurrentDomain.FriendlyName} <input-XML-path> [output-Markdown-path]");
+                Console.Error.WriteLine($"Usage: Vsxmd <input-XML-path> [output-Markdown-path]");
                 Environment.Exit(1);
             }
 

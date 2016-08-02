@@ -1171,7 +1171,7 @@ Program entry.
 
 ##### Remarks
 
-Usage syntax: `Vsxmd.exe <input-XML-path> [output-Markdown-path]`
+Usage syntax: `Vsxmd <input-XML-path> [output-Markdown-path]`
 
 The `input-XML-path` argument is required. It references to the VS generated XML documentation file.
 
