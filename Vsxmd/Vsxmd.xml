@@ -7,17 +7,19 @@
         <member name="T:Vsxmd.Converter">
             <inheritdoc/>
         </member>
-        <member name="M:Vsxmd.Converter.#ctor(System.Xml.Linq.XDocument)">
+        <member name="M:Vsxmd.Converter.#ctor(System.Xml.Linq.XDocument,System.String)">
             <summary>
             Initializes a new instance of the <see cref="T:Vsxmd.Converter"/> class.
             </summary>
             <param name="document">The XML document.</param>
+            <param name="assemblyPath">The assembly dll path.</param>
         </member>
-        <member name="M:Vsxmd.Converter.ToMarkdown(System.Xml.Linq.XDocument)">
+        <member name="M:Vsxmd.Converter.ToMarkdown(System.Xml.Linq.XDocument,System.String)">
             <summary>
             Convert VS XML document to Markdown syntax.
             </summary>
             <param name="document">The XML document.</param>
+            <param name="assemblyPath">The assembly dll path.</param>
             <returns>The generated Markdown content.</returns>
         </member>
         <member name="M:Vsxmd.Converter.ToMarkdown">

@@ -13,8 +13,8 @@
   - [GetChildren(name)](#M-Vsxmd-Units-BaseUnit-GetChildren-System-Xml-Linq-XName- 'Vsxmd.Units.BaseUnit.GetChildren(System.Xml.Linq.XName)')
   - [ToMarkdown()](#M-Vsxmd-Units-BaseUnit-ToMarkdown 'Vsxmd.Units.BaseUnit.ToMarkdown')
 - [Converter](#T-Vsxmd-Converter 'Vsxmd.Converter')
-  - [#ctor(document)](#M-Vsxmd-Converter-#ctor-System-Xml-Linq-XDocument- 'Vsxmd.Converter.#ctor(System.Xml.Linq.XDocument)')
-  - [ToMarkdown(document)](#M-Vsxmd-Converter-ToMarkdown-System-Xml-Linq-XDocument- 'Vsxmd.Converter.ToMarkdown(System.Xml.Linq.XDocument)')
+  - [#ctor(document)](#M-Vsxmd-Converter-#ctor-System-Xml-Linq-XDocument,System-String- 'Vsxmd.Converter.#ctor(System.Xml.Linq.XDocument,System.String)')
+  - [ToMarkdown(document)](#M-Vsxmd-Converter-ToMarkdown-System-Xml-Linq-XDocument,System-String- 'Vsxmd.Converter.ToMarkdown(System.Xml.Linq.XDocument,System.String)')
   - [ToMarkdown()](#M-Vsxmd-Converter-ToMarkdown 'Vsxmd.Converter.ToMarkdown')
 - [ExampleUnit](#T-Vsxmd-Units-ExampleUnit 'Vsxmd.Units.ExampleUnit')
   - [#ctor(element)](#M-Vsxmd-Units-ExampleUnit-#ctor-System-Xml-Linq-XElement- 'Vsxmd.Units.ExampleUnit.#ctor(System.Xml.Linq.XElement)')
@@ -276,8 +276,8 @@ Vsxmd
 
 *Inherit from parent.*
 
-<a name='M-Vsxmd-Converter-#ctor-System-Xml-Linq-XDocument-'></a>
-### #ctor(document) `constructor` [#](#M-Vsxmd-Converter-#ctor-System-Xml-Linq-XDocument- 'Go To Here') [=](#contents 'Back To Contents')
+<a name='M-Vsxmd-Converter-#ctor-System-Xml-Linq-XDocument,System-String-'></a>
+### #ctor(document) `constructor` [#](#M-Vsxmd-Converter-#ctor-System-Xml-Linq-XDocument,System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -289,8 +289,8 @@ Initializes a new instance of the [Converter](#T-Vsxmd-Converter 'Vsxmd.Converte
 | ---- | ---- | ----------- |
 | document | [System.Xml.Linq.XDocument](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Xml.Linq.XDocument 'System.Xml.Linq.XDocument') | The XML document. |
 
-<a name='M-Vsxmd-Converter-ToMarkdown-System-Xml-Linq-XDocument-'></a>
-### ToMarkdown(document) `method` [#](#M-Vsxmd-Converter-ToMarkdown-System-Xml-Linq-XDocument- 'Go To Here') [=](#contents 'Back To Contents')
+<a name='M-Vsxmd-Converter-ToMarkdown-System-Xml-Linq-XDocument,System-String-'></a>
+### ToMarkdown(document) `method` [#](#M-Vsxmd-Converter-ToMarkdown-System-Xml-Linq-XDocument,System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 

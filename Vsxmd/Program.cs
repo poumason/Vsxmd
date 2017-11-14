@@ -37,6 +37,8 @@ namespace Vsxmd
                 Environment.Exit(1);
             }
 
+            Console.WriteLine(args[0]);
+
             string xmlPath = args[0];
             string markdownPath = args.ElementAtOrDefault(1);
 
@@ -46,8 +48,12 @@ namespace Vsxmd
                 markdownPath = Path.ChangeExtension(xmlPath, ".md");
             }
 
+            string dllPath = Path.ChangeExtension(xmlPath, ".dll");
+
+            Console.WriteLine(dllPath);
+
             var document = XDocument.Load(xmlPath);
-            var converter = new Converter(document);
+            var converter = new Converter(document, dllPath);
             var markdown = converter.ToMarkdown();
 
             File.WriteAllText(markdownPath, markdown);
